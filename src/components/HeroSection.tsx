@@ -46,7 +46,7 @@ const HeroSection = () => {
             <div className="relative">
               <div className="glass-card overflow-hidden rounded-3xl aspect-[4/3]">
                 <img 
-                  src="https://images.unsplash.com/photo-1508514177221-188b1cf16e9d?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=2070&q=80" 
+                  src="public\media\solar_group.webp" 
                   alt="Solar panels in a farm field" 
                   className="w-full h-full object-cover"
                 />
