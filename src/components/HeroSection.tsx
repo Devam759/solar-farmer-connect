@@ -1,77 +1,149 @@
-
-import { ArrowDown } from 'lucide-react';
+import { ArrowDown, Sun, Leaf, Zap, Users, Award, Shield, Clock } from 'lucide-react';
 
 const HeroSection = () => {
   return (
     <section className="relative min-h-screen flex items-center">
       {/* Background elements */}
       <div className="absolute inset-0 -z-10 overflow-hidden">
-        <div className="absolute inset-0 bg-gradient-to-b from-sunlight-50 via-background to-background opacity-80"></div>
-        <div className="absolute top-1/2 -translate-y-1/2 -right-28 w-96 h-96 bg-primary/10 rounded-full filter blur-3xl"></div>
-        <div className="absolute top-1/4 -left-28 w-72 h-72 bg-sunlight-200/20 rounded-full filter blur-3xl"></div>
+        <div className="absolute inset-0 bg-gradient-to-b from-solar-900/5 via-background to-background opacity-90"></div>
+        <div className="absolute top-1/2 -translate-y-1/2 -right-28 w-96 h-96 bg-primary/5 rounded-full filter blur-3xl"></div>
+        <div className="absolute top-1/4 -left-28 w-72 h-72 bg-solar-200/10 rounded-full filter blur-3xl"></div>
+        {/* Add subtle pattern overlay */}
+        <div className="absolute inset-0 opacity-5" style={{
+          backgroundImage: `url("data:image/svg+xml,%3Csvg width='60' height='60' viewBox='0 0 60 60' xmlns='http://www.w3.org/2000/svg'%3E%3Cg fill='none' fill-rule='evenodd'%3E%3Cg fill='%23000' fill-opacity='1'%3E%3Cpath d='M36 34v-4h-2v4h-4v2h4v4h2v-4h4v-2h-4zm0-30V0h-2v4h-4v2h4v4h2V6h4V4h-4zM6 34v-4H4v4H0v2h4v4h2v-4h4v-2H6zM6 4V0H4v4H0v2h4v4h2V6h4V4H6z'/%3E%3C/g%3E%3C/g%3E%3C/svg%3E")`
+        }}></div>
       </div>
 
       <div className="container-custom pt-20">
         <div className="flex flex-col lg:flex-row items-center gap-12">
           <div className="w-full lg:w-1/2 animate-fade-in">
-            <span className="inline-block py-1 px-3 rounded-full text-xs font-medium bg-primary/10 text-primary mb-6">
-              Empowering Rural Energy Independence
-            </span>
+          <div className="h-7"></div>
+
+            {/* Government Badge */}
+            <div className="inline-flex items-center gap-2 px-4 py-2 rounded-full bg-primary/10 text-primary mb-6">
+              <Shield className="w-4 h-4" />
+              <span className="text-sm font-medium">Official Government Scheme</span>
+            </div>
             
+            {/* Main Heading */}
             <h1 className="text-4xl sm:text-5xl md:text-6xl font-bold leading-tight tracking-tight text-balance">
-              Transforming Agriculture with <span className="text-gradient">Solar Energy</span>
+              Solar Energy for <span className="text-gradient">Agricultural Prosperity</span>
             </h1>
             
+            {/* Subheading */}
             <p className="mt-6 text-xl text-muted-foreground max-w-lg">
-              Government initiatives bringing sustainable energy solutions to farmers across the nation.
+              A flagship initiative by the Government of Rajasthan to transform farming through solar-powered solutions, ensuring sustainable growth and energy independence.
             </p>
-            
-            <div className="mt-10 flex flex-wrap gap-4">
+
+            {/* Key Benefits */}
+            <div className="mt-8 grid grid-cols-2 gap-4">
+              <div className="flex items-center gap-2 text-sm text-muted-foreground">
+                <Award className="w-4 h-4 text-primary" />
+                <span>Up to 60% Subsidy</span>
+              </div>
+              <div className="flex items-center gap-2 text-sm text-muted-foreground">
+                <Clock className="w-4 h-4 text-primary" />
+                <span>Quick Processing</span>
+              </div>
+            </div>
+
+            {/* CTA Buttons */}
+            <div className="mt-8 flex flex-wrap gap-4">
               <a 
-                href="#problem-solution" 
-                className="inline-flex items-center gap-2 bg-primary text-white px-6 py-3 rounded-full font-medium transition-transform hover:translate-y-[-2px] hover:shadow-lg"
+                href="#schemes" 
+                className="inline-flex items-center justify-center px-8 py-4 rounded-lg bg-primary text-white font-medium hover:bg-primary/90 transition-colors shadow-lg shadow-primary/20"
               >
-                Explore Schemes
+                Apply for Scheme
+                <ArrowDown className="w-4 h-4 ml-2" />
               </a>
               <a 
-                href="#impact" 
-                className="inline-flex items-center gap-2 bg-transparent border border-primary/20 text-foreground px-6 py-3 rounded-full font-medium transition-all hover:bg-primary/5"
+                href="#implementation" 
+                className="inline-flex items-center justify-center px-8 py-4 rounded-lg border-2 border-primary text-primary font-medium hover:bg-primary/5 transition-colors"
               >
-                View Impact
+                Scheme Guidelines
               </a>
             </div>
-          </div>
-          
-          <div className="w-full lg:w-1/2 animate-fade-in-right">
-            <div className="relative">
-              <div className="glass-card overflow-hidden rounded-3xl aspect-[4/3]">
-                <img 
-                  src="public\media\solar_group.webp" 
-                  alt="Solar panels in a farm field" 
-                  className="w-full h-full object-cover"
-                />
+
+            {/* Key Features */}
+            <div className="mt-12 grid grid-cols-2 gap-6">
+              <div className="flex items-start gap-3 p-4 rounded-xl bg-white/50 backdrop-blur-sm border border-white/20">
+                <div className="p-2 rounded-lg bg-primary/10">
+                  <Sun className="w-5 h-5 text-primary" />
+                </div>
+                <div>
+                  <h3 className="font-medium">Solar Water Pumps</h3>
+                  <p className="text-sm text-muted-foreground">Subsidy on solar pumps for irrigation</p>
+                </div>
               </div>
-              <div className="absolute -bottom-6 -right-6 glass-card p-4 rounded-xl shadow-lg animate-float">
+              <div className="flex items-start gap-3 p-4 rounded-xl bg-white/50 backdrop-blur-sm border border-white/20">
+                <div className="p-2 rounded-lg bg-primary/10">
+                  <Leaf className="w-5 h-5 text-primary" />
+                </div>
+                <div>
+                  <h3 className="font-medium">Green Farming</h3>
+                  <p className="text-sm text-muted-foreground">Sustainable agricultural practices</p>
+                </div>
+              </div>
+              <div className="flex items-start gap-3 p-4 rounded-xl bg-white/50 backdrop-blur-sm border border-white/20">
+                <div className="p-2 rounded-lg bg-primary/10">
+                  <Zap className="w-5 h-5 text-primary" />
+                </div>
+                <div>
+                  <h3 className="font-medium">Grid Connection</h3>
+                  <p className="text-sm text-muted-foreground">Sell excess power to grid</p>
+                </div>
+              </div>
+              <div className="flex items-start gap-3 p-4 rounded-xl bg-white/50 backdrop-blur-sm border border-white/20">
+                <div className="p-2 rounded-lg bg-primary/10">
+                  <Users className="w-5 h-5 text-primary" />
+                </div>
+                <div>
+                  <h3 className="font-medium">Farmer Support</h3>
+                  <p className="text-sm text-muted-foreground">Technical & financial guidance</p>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          {/* Right side - Stats and Image */}
+          <div className="w-full lg:w-1/2 -mt-40">
+            <div className="relative">
+              {/* Main Image */}
+              <div className="relative rounded-2xl overflow-hidden shadow-2xl">
+                <img 
+                  src="public/media/solar_group.webp" 
+                  alt="Farmer with solar installation" 
+                  className="w-full h-[400px] object-cover"
+                />
+                <div className="absolute inset-0 bg-gradient-to-t from-black/50 to-transparent"></div>
+              </div>
+
+              {/* Floating Stats Cards */}
+              <div className="absolute -bottom-6 -right-6 bg-white rounded-xl shadow-lg p-4 animate-float">
                 <div className="flex items-center gap-3">
-                  <div className="w-10 h-10 rounded-full bg-primary/20 flex items-center justify-center text-primary">
-                    <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" strokeWidth={1.5} stroke="currentColor" className="w-5 h-5">
-                      <path strokeLinecap="round" strokeLinejoin="round" d="M12 3v2.25m6.364.386-1.591 1.591M21 12h-2.25m-.386 6.364-1.591-1.591M12 18.75V21m-4.773-4.227-1.591 1.591M5.25 12H3m4.227-4.773L5.636 5.636M15.75 12a3.75 3.75 0 1 1-7.5 0 3.75 3.75 0 0 1 7.5 0Z" />
-                    </svg>
+                  <div className="p-2 rounded-lg bg-primary/10">
+                    <Sun className="w-6 h-6 text-primary" />
                   </div>
                   <div>
-                    <p className="font-medium text-sm">Clean Energy</p>
-                    <p className="text-xs text-muted-foreground">100% Renewable</p>
+                    <p className="text-sm text-muted-foreground">Farmers Benefitted</p>
+                    <h3 className="text-2xl font-bold text-primary">250,000+</h3>
+                  </div>
+                </div>
+              </div>
+
+              <div className="absolute -top-6 -left-6 bg-white rounded-xl shadow-lg p-4 animate-float-delayed">
+                <div className="flex items-center gap-3">
+                  <div className="p-2 rounded-lg bg-primary/10">
+                    <Zap className="w-6 h-6 text-primary" />
+                  </div>
+                  <div>
+                    <p className="text-sm text-muted-foreground">Installed Capacity</p>
+                    <h3 className="text-2xl font-bold text-primary">1.5 GW</h3>
                   </div>
                 </div>
               </div>
             </div>
           </div>
-        </div>
-        
-        <div className="absolute bottom-10 left-1/2 transform -translate-x-1/2 animate-bounce">
-          <a href="#problem-solution" aria-label="Scroll down">
-            <ArrowDown className="text-primary/80" />
-          </a>
         </div>
       </div>
     </section>
