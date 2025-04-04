@@ -1,3 +1,4 @@
+
 import { ArrowDown, Sun, Leaf, Zap, Users, Award, Shield, Clock } from 'lucide-react';
 
 const HeroSection = () => {
@@ -31,17 +32,17 @@ const HeroSection = () => {
             </h1>
             
             {/* Subheading */}
-            <p className="mt-6 text-xl text-muted-foreground max-w-lg">
+            <p className="mt-6 text-lg leading-relaxed text-foreground/80 max-w-lg font-normal">
               A flagship initiative by the Government of Rajasthan to transform farming through solar-powered solutions, ensuring sustainable growth and energy independence.
             </p>
 
             {/* Key Benefits */}
             <div className="mt-8 grid grid-cols-2 gap-4">
-              <div className="flex items-center gap-2 text-sm text-muted-foreground">
+              <div className="flex items-center gap-2 text-sm font-medium text-foreground/80">
                 <Award className="w-4 h-4 text-primary" />
                 <span>Up to 60% Subsidy</span>
               </div>
-              <div className="flex items-center gap-2 text-sm text-muted-foreground">
+              <div className="flex items-center gap-2 text-sm font-medium text-foreground/80">
                 <Clock className="w-4 h-4 text-primary" />
                 <span>Quick Processing</span>
               </div>
@@ -51,14 +52,14 @@ const HeroSection = () => {
             <div className="mt-8 flex flex-wrap gap-4">
               <a 
                 href="#schemes" 
-                className="inline-flex items-center justify-center px-8 py-4 rounded-lg bg-primary text-white font-medium hover:bg-primary/90 transition-colors shadow-lg shadow-primary/20"
+                className="btn-primary"
               >
                 Apply for Scheme
                 <ArrowDown className="w-4 h-4 ml-2" />
               </a>
               <a 
                 href="#implementation" 
-                className="inline-flex items-center justify-center px-8 py-4 rounded-lg border-2 border-primary text-primary font-medium hover:bg-primary/5 transition-colors"
+                className="btn-secondary"
               >
                 Scheme Guidelines
               </a>
@@ -72,7 +73,7 @@ const HeroSection = () => {
                 </div>
                 <div>
                   <h3 className="font-medium">Solar Water Pumps</h3>
-                  <p className="text-sm text-muted-foreground">Subsidy on solar pumps for irrigation</p>
+                  <p className="text-sm font-normal text-foreground/80">Subsidy on solar pumps for irrigation</p>
                 </div>
               </div>
               <div className="flex items-start gap-3 p-4 rounded-xl bg-white/50 backdrop-blur-sm border border-white/20">
@@ -81,7 +82,7 @@ const HeroSection = () => {
                 </div>
                 <div>
                   <h3 className="font-medium">Green Farming</h3>
-                  <p className="text-sm text-muted-foreground">Sustainable agricultural practices</p>
+                  <p className="text-sm font-normal text-foreground/80">Sustainable agricultural practices</p>
                 </div>
               </div>
               <div className="flex items-start gap-3 p-4 rounded-xl bg-white/50 backdrop-blur-sm border border-white/20">
@@ -90,7 +91,7 @@ const HeroSection = () => {
                 </div>
                 <div>
                   <h3 className="font-medium">Grid Connection</h3>
-                  <p className="text-sm text-muted-foreground">Sell excess power to grid</p>
+                  <p className="text-sm font-normal text-foreground/80">Sell excess power to grid</p>
                 </div>
               </div>
               <div className="flex items-start gap-3 p-4 rounded-xl bg-white/50 backdrop-blur-sm border border-white/20">
@@ -99,7 +100,7 @@ const HeroSection = () => {
                 </div>
                 <div>
                   <h3 className="font-medium">Farmer Support</h3>
-                  <p className="text-sm text-muted-foreground">Technical & financial guidance</p>
+                  <p className="text-sm font-normal text-foreground/80">Technical & financial guidance</p>
                 </div>
               </div>
             </div>
@@ -125,7 +126,7 @@ const HeroSection = () => {
                     <Sun className="w-6 h-6 text-primary" />
                   </div>
                   <div>
-                    <p className="text-sm text-muted-foreground">Farmers Benefitted</p>
+                    <p className="text-sm font-medium text-foreground/80">Farmers Benefitted</p>
                     <h3 className="text-2xl font-bold text-primary">250,000+</h3>
                   </div>
                 </div>
@@ -137,7 +138,7 @@ const HeroSection = () => {
                     <Zap className="w-6 h-6 text-primary" />
                   </div>
                   <div>
-                    <p className="text-sm text-muted-foreground">Installed Capacity</p>
+                    <p className="text-sm font-medium text-foreground/80">Installed Capacity</p>
                     <h3 className="text-2xl font-bold text-primary">1.5 GW</h3>
                   </div>
                 </div>

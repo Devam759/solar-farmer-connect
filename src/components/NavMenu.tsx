@@ -26,7 +26,7 @@ const NavMenu = () => {
           <a
             key={item.name}
             href={item.href}
-            className="nav-link text-sm font-medium"
+            className="text-sm font-medium tracking-wide text-foreground/80 hover:text-foreground transition-colors duration-300 py-2"
             onClick={closeMenu}
           >
             {item.name}
@@ -61,7 +61,7 @@ const NavMenu = () => {
                 <a
                   key={item.name}
                   href={item.href}
-                  className="text-lg font-medium"
+                  className="text-lg font-medium tracking-wide"
                   onClick={closeMenu}
                 >
                   {item.name}
