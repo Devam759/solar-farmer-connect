@@ -54,6 +54,8 @@
   html {
     font-family: 'Montserrat', -apple-system, BlinkMacSystemFont, sans-serif;
     scroll-behavior: smooth;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
   }
 
   body {
@@ -65,6 +67,9 @@
       radial-gradient(circle at 0% 100%, hsl(142 40% 45% / 0.1) 0%, transparent 50%);
     background-attachment: fixed;
     position: relative;
+    font-weight: 400;
+    letter-spacing: -0.01em;
+    line-height: 1.65;
   }
 
   body::before {
@@ -86,6 +91,44 @@
   h1, h2, h3, h4, h5, h6 {
     font-family: 'Playfair Display', serif;
     letter-spacing: -0.02em;
+    font-weight: 600;
+    line-height: 1.2;
+    margin-bottom: 0.5em;
+  }
+
+  h1 {
+    font-size: 2.5rem;
+    font-weight: 700;
+  }
+
+  h2 {
+    font-size: 2rem;
+    font-weight: 600;
+  }
+
+  h3 {
+    font-size: 1.75rem;
+  }
+
+  h4 {
+    font-size: 1.5rem;
+  }
+
+  h5 {
+    font-size: 1.25rem;
+  }
+
+  h6 {
+    font-size: 1rem;
+  }
+
+  p {
+    margin-bottom: 1.5rem;
+    font-weight: 400;
+  }
+
+  strong {
+    font-weight: 600;
   }
 }
 
@@ -99,11 +142,11 @@
   }
   
   .section-title {
-    @apply text-3xl sm:text-4xl font-semibold tracking-tight mb-4;
+    @apply text-3xl sm:text-4xl font-semibold tracking-tight mb-6;
   }
   
   .section-subtitle {
-    @apply text-base sm:text-lg text-muted-foreground mb-8 max-w-3xl font-light;
+    @apply text-base sm:text-lg text-muted-foreground mb-10 max-w-3xl font-light leading-relaxed;
   }
   
   .section-spacing {
@@ -115,15 +158,15 @@
   }
   
   .nav-link {
-    @apply relative inline-block text-foreground/80 hover:text-foreground transition-all duration-300 after:content-[''] after:absolute after:w-full after:scale-x-0 after:h-0.5 after:bottom-0 after:left-0 after:bg-primary after:origin-bottom-right after:transition-transform after:duration-300 hover:after:scale-x-100 hover:after:origin-bottom-left;
+    @apply relative inline-block text-foreground/80 hover:text-foreground transition-all duration-300 after:content-[''] after:absolute after:w-full after:scale-x-0 after:h-0.5 after:bottom-0 after:left-0 after:bg-primary after:origin-bottom-right after:transition-transform after:duration-300 hover:after:scale-x-100 hover:after:origin-bottom-left font-medium;
   }
 
   .btn-primary {
-    @apply inline-flex items-center justify-center px-8 py-4 rounded-lg bg-primary text-white font-medium hover:bg-primary/90 transition-colors shadow-lg shadow-primary/20;
+    @apply inline-flex items-center justify-center px-8 py-4 rounded-lg bg-primary text-white font-medium hover:bg-primary/90 transition-colors shadow-lg shadow-primary/20 tracking-wide;
   }
 
   .btn-secondary {
-    @apply inline-flex items-center justify-center px-8 py-4 rounded-lg border-2 border-primary text-primary font-medium hover:bg-primary/5 transition-colors;
+    @apply inline-flex items-center justify-center px-8 py-4 rounded-lg border-2 border-primary text-primary font-medium hover:bg-primary/5 transition-colors tracking-wide;
   }
 }
 
@@ -146,5 +189,21 @@
 
   .font-heading {
     font-family: 'Playfair Display', serif;
+  }
+  
+  .leading-tight {
+    line-height: 1.2;
+  }
+  
+  .leading-relaxed {
+    line-height: 1.75;
+  }
+  
+  .tracking-tight {
+    letter-spacing: -0.02em;
+  }
+  
+  .tracking-wide {
+    letter-spacing: 0.01em;
   }
 }
