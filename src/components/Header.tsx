@@ -1,7 +1,5 @@
-
 import { useState, useEffect } from 'react';
 import NavMenu from './NavMenu';
-import Image from 'next/image';
 import logo from '../../public/media/logo.webp';
 
 const Header = () => {
@@ -22,7 +20,7 @@ const Header = () => {
 
   return (
     <header className={`fixed top-0 left-0 right-0 z-50 transition-all duration-300 ${
-      scrolled ? 'py-3 bg-white/90 backdrop-blur-md shadow-md' : 'py-5 bg-transparent'
+      scrolled ? 'py-3 bg-white/90 backdrop-blur-md shadow-sm' : 'py-5 bg-transparent'
     }`}>
       <div className="container-custom flex items-center justify-between">
         <div className="flex items-center">
