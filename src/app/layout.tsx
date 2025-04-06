@@ -1,3 +1,4 @@
+
 import type { Metadata } from "next";
 import "./globals.css";
 
@@ -13,7 +14,7 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en">
-      <body className="font-times antialiased">
+      <body className="font-times antialiased bg-background text-foreground">
         {children}
       </body>
     </html>

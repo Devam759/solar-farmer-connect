@@ -1,3 +1,4 @@
+
 import type { Config } from "tailwindcss";
 
 export default {
@@ -33,15 +34,15 @@ export default {
 				background: 'hsl(var(--background))',
 				foreground: 'hsl(var(--foreground))',
 				primary: {
-					DEFAULT: '#1a5f7a',
+					DEFAULT: '#1a5f7a', // Blue
 					light: '#2a7ba3',
 					dark: '#0f3d4f',
 					foreground: 'hsl(var(--primary-foreground))'
 				},
 				secondary: {
-					DEFAULT: '#e67e22',
-					light: '#f39c12',
-					dark: '#d35400',
+					DEFAULT: '#2e7d32', // Green
+					light: '#4caf50',
+					dark: '#1b5e20',
 					foreground: 'hsl(var(--secondary-foreground))'
 				},
 				destructive: {
@@ -49,12 +50,12 @@ export default {
 					foreground: 'hsl(var(--destructive-foreground))'
 				},
 				muted: {
-					DEFAULT: 'hsl(var(--muted))',
-					foreground: 'hsl(var(--muted-foreground))'
+					DEFAULT: '#78909c', // Grey
+					foreground: '#eceff1'
 				},
 				accent: {
-					DEFAULT: 'hsl(var(--accent))',
-					foreground: 'hsl(var(--accent-foreground))'
+					DEFAULT: '#e0f2f1',
+					foreground: '#004d40'
 				},
 				popover: {
 					DEFAULT: 'hsl(var(--popover))',
@@ -75,8 +76,32 @@ export default {
 					ring: 'hsl(var(--sidebar-ring))'
 				},
 				solar: {
-					50: '#f9fafb',
-					100: '#f3f4f6',
+					50: '#f0f4f8',
+					100: '#d9e2ec',
+					200: '#bcccdc',
+					300: '#9fb3c8',
+					400: '#829ab1',
+					500: '#627d98',
+					600: '#486581',
+					700: '#334e68',
+					800: '#243b53',
+					900: '#102a43',
+				},
+				earth: {
+					50: '#f1f8e9',
+					100: '#dcedc8',
+					200: '#c5e1a5',
+					300: '#aed581',
+					400: '#9ccc65',
+					500: '#8bc34a',
+					600: '#7cb342',
+					700: '#689f38',
+					800: '#558b2f',
+					900: '#33691e',
+				},
+				sunlight: {
+					50: '#fdfcfb',
+					100: '#f9fafb',
 					200: '#e5e7eb',
 					300: '#d1d5db',
 					400: '#94a3b8',
@@ -86,34 +111,10 @@ export default {
 					800: '#1e293b',
 					900: '#0f172a',
 				},
-				earth: {
-					50: '#f8fafc',
-					100: '#f1f5f9',
-					200: '#e2e8f0',
-					300: '#cbd5e1',
-					400: '#94a3b8',
-					500: '#64748b',
-					600: '#475569',
-					700: '#334155',
-					800: '#1e293b',
-					900: '#0f172a',
-				},
-				sunlight: {
-					50: '#fefce8',
-					100: '#fef9c3',
-					200: '#fef08a',
-					300: '#fde047',
-					400: '#facc15',
-					500: '#eab308',
-					600: '#ca8a04',
-					700: '#a16207',
-					800: '#854d0e',
-					900: '#713f12',
-				},
 				govt: {
-					green: '#27ae60',
-					red: '#c0392b',
-					yellow: '#f1c40f',
+					green: '#2e7d32',
+					red: '#c62828',
+					yellow: '#f9a825',
 				},
 			},
 			borderRadius: {
