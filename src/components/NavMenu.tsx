@@ -1,3 +1,4 @@
+
 import { useState } from 'react';
 import { Menu, X } from 'lucide-react';
 
@@ -25,7 +26,7 @@ const NavMenu = () => {
           <a
             key={item.name}
             href={item.href}
-            className="text-sm font-times font-medium tracking-wide text-foreground/80 hover:text-foreground transition-colors duration-300 py-2"
+            className="text-base font-medium tracking-wide text-foreground/80 hover:text-foreground transition-colors duration-300 py-2"
             onClick={closeMenu}
           >
             {item.name}
@@ -60,7 +61,7 @@ const NavMenu = () => {
                 <a
                   key={item.name}
                   href={item.href}
-                  className="text-lg font-times font-medium tracking-wide text-foreground/80 hover:text-foreground transition-colors duration-300"
+                  className="text-xl font-medium tracking-wide text-foreground/80 hover:text-foreground transition-colors duration-300"
                   onClick={closeMenu}
                 >
                   {item.name}

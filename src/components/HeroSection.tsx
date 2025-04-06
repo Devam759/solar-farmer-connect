@@ -15,10 +15,10 @@ const HeroSection = () => {
         }}></div>
       </div>
 
-      <div className="container-custom pt-20">
+      <div className="container-custom pt-24">
         <div className="flex flex-col lg:flex-row items-center gap-12">
           <div className="w-full lg:w-1/2 animate-fade-in">
-          <div className="h-7"></div>
+          <div className="h-8"></div>
 
             {/* Government Badge */}
             <div className="inline-flex items-center gap-2 px-4 py-2 rounded-full bg-primary/10 text-primary mb-6">
@@ -27,23 +27,23 @@ const HeroSection = () => {
             </div>
             
             {/* Main Heading */}
-            <h1 className="text-4xl sm:text-5xl md:text-6xl font-bold leading-tight tracking-tight text-balance">
+            <h1 className="text-5xl sm:text-6xl md:text-7xl font-bold leading-tight tracking-tight text-balance">
               Solar Energy for <span className="text-gradient">Agricultural Prosperity</span>
             </h1>
             
             {/* Subheading */}
-            <p className="mt-6 text-lg leading-relaxed text-foreground/80 max-w-lg font-normal">
+            <p className="mt-6 text-xl leading-relaxed text-foreground/80 max-w-lg">
               A flagship initiative by the Government of Rajasthan to transform farming through solar-powered solutions, ensuring sustainable growth and energy independence.
             </p>
 
             {/* Key Benefits */}
             <div className="mt-8 grid grid-cols-2 gap-4">
-              <div className="flex items-center gap-2 text-sm font-medium text-foreground/80">
-                <Award className="w-4 h-4 text-primary" />
+              <div className="flex items-center gap-2 text-base font-medium text-foreground/80">
+                <Award className="w-5 h-5 text-primary" />
                 <span>Up to 60% Subsidy</span>
               </div>
-              <div className="flex items-center gap-2 text-sm font-medium text-foreground/80">
-                <Clock className="w-4 h-4 text-primary" />
+              <div className="flex items-center gap-2 text-base font-medium text-foreground/80">
+                <Clock className="w-5 h-5 text-primary" />
                 <span>Quick Processing</span>
               </div>
             </div>
@@ -55,7 +55,7 @@ const HeroSection = () => {
                 className="btn-primary"
               >
                 Apply for Scheme
-                <ArrowDown className="w-4 h-4 ml-2" />
+                <ArrowDown className="w-5 h-5 ml-2" />
               </a>
               <a 
                 href="#implementation" 
@@ -72,8 +72,8 @@ const HeroSection = () => {
                   <Sun className="w-5 h-5 text-primary" />
                 </div>
                 <div>
-                  <h3 className="font-medium">Solar Water Pumps</h3>
-                  <p className="text-sm font-normal text-foreground/80">Subsidy on solar pumps for irrigation</p>
+                  <h3 className="text-lg font-medium">Solar Water Pumps</h3>
+                  <p className="text-sm text-foreground/80">Subsidy on solar pumps for irrigation</p>
                 </div>
               </div>
               <div className="flex items-start gap-3 p-4 rounded-xl bg-white/50 backdrop-blur-sm border border-white/20">
@@ -81,8 +81,8 @@ const HeroSection = () => {
                   <Leaf className="w-5 h-5 text-primary" />
                 </div>
                 <div>
-                  <h3 className="font-medium">Green Farming</h3>
-                  <p className="text-sm font-normal text-foreground/80">Sustainable agricultural practices</p>
+                  <h3 className="text-lg font-medium">Green Farming</h3>
+                  <p className="text-sm text-foreground/80">Sustainable agricultural practices</p>
                 </div>
               </div>
               <div className="flex items-start gap-3 p-4 rounded-xl bg-white/50 backdrop-blur-sm border border-white/20">
@@ -90,8 +90,8 @@ const HeroSection = () => {
                   <Zap className="w-5 h-5 text-primary" />
                 </div>
                 <div>
-                  <h3 className="font-medium">Grid Connection</h3>
-                  <p className="text-sm font-normal text-foreground/80">Sell excess power to grid</p>
+                  <h3 className="text-lg font-medium">Grid Connection</h3>
+                  <p className="text-sm text-foreground/80">Sell excess power to grid</p>
                 </div>
               </div>
               <div className="flex items-start gap-3 p-4 rounded-xl bg-white/50 backdrop-blur-sm border border-white/20">
@@ -99,20 +99,20 @@ const HeroSection = () => {
                   <Users className="w-5 h-5 text-primary" />
                 </div>
                 <div>
-                  <h3 className="font-medium">Farmer Support</h3>
-                  <p className="text-sm font-normal text-foreground/80">Technical & financial guidance</p>
+                  <h3 className="text-lg font-medium">Farmer Support</h3>
+                  <p className="text-sm text-foreground/80">Technical & financial guidance</p>
                 </div>
               </div>
             </div>
           </div>
 
           {/* Right side - Stats and Image */}
-          <div className="w-full lg:w-1/2 -mt-40">
+          <div className="w-full lg:w-1/2">
             <div className="relative">
               {/* Main Image */}
               <div className="relative rounded-2xl overflow-hidden shadow-2xl">
                 <img 
-                  src="public/media/solar_group.webp" 
+                  src="/media/solar_group.webp" 
                   alt="Farmer with solar installation" 
                   className="w-full h-[400px] object-cover"
                 />
