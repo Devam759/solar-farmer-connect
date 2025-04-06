@@ -1,4 +1,3 @@
-
 import type { Config } from "tailwindcss";
 
 export default {
@@ -20,8 +19,12 @@ export default {
 		},
 		extend: {
 			fontFamily: {
-				sans: ['Montserrat', 'sans-serif'],
-				serif: ['Playfair Display', 'serif'],
+				display: ['Times New Roman', 'serif'],
+				body: ['Times New Roman', 'serif'],
+				default: ['Times New Roman', 'serif'],
+				sans: ['Times New Roman', 'serif'],
+				serif: ['Times New Roman', 'serif'],
+				times: ['Times New Roman', 'serif'],
 			},
 			colors: {
 				border: 'hsl(var(--border))',
@@ -30,11 +33,15 @@ export default {
 				background: 'hsl(var(--background))',
 				foreground: 'hsl(var(--foreground))',
 				primary: {
-					DEFAULT: 'hsl(var(--primary))',
+					DEFAULT: '#1a5f7a',
+					light: '#2a7ba3',
+					dark: '#0f3d4f',
 					foreground: 'hsl(var(--primary-foreground))'
 				},
 				secondary: {
-					DEFAULT: 'hsl(var(--secondary))',
+					DEFAULT: '#e67e22',
+					light: '#f39c12',
+					dark: '#d35400',
 					foreground: 'hsl(var(--secondary-foreground))'
 				},
 				destructive: {
@@ -102,6 +109,11 @@ export default {
 					700: '#a16207',
 					800: '#854d0e',
 					900: '#713f12',
+				},
+				govt: {
+					green: '#27ae60',
+					red: '#c0392b',
+					yellow: '#f1c40f',
 				},
 			},
 			borderRadius: {
