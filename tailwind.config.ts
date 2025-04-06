@@ -1,3 +1,4 @@
+
 import type { Config } from "tailwindcss";
 
 export default {
@@ -33,15 +34,15 @@ export default {
 				background: 'hsl(var(--background))',
 				foreground: 'hsl(var(--foreground))',
 				primary: {
-					DEFAULT: '#1a5f7a',
-					light: '#2a7ba3',
-					dark: '#0f3d4f',
+					DEFAULT: '#2e7d32', // Deep green
+					light: '#4caf50', // Medium green
+					dark: '#1b5e20', // Dark green
 					foreground: 'hsl(var(--primary-foreground))'
 				},
 				secondary: {
-					DEFAULT: '#e67e22',
-					light: '#f39c12',
-					dark: '#d35400',
+					DEFAULT: '#81c784', // Light green
+					light: '#a5d6a7', // Lighter green
+					dark: '#66bb6a', // Medium-light green
 					foreground: 'hsl(var(--secondary-foreground))'
 				},
 				destructive: {
@@ -75,16 +76,16 @@ export default {
 					ring: 'hsl(var(--sidebar-ring))'
 				},
 				solar: {
-					50: '#f9fafb',
-					100: '#f3f4f6',
-					200: '#e5e7eb',
-					300: '#d1d5db',
-					400: '#94a3b8',
-					500: '#64748b',
-					600: '#475569',
-					700: '#334155',
-					800: '#1e293b',
-					900: '#0f172a',
+					50: '#f2faf4',
+					100: '#e6f5e9',
+					200: '#c6e6cf',
+					300: '#a5d6b4',
+					400: '#64b57f',
+					500: '#2e994c',
+					600: '#1c7a3d',
+					700: '#135f32',
+					800: '#0f4426',
+					900: '#0a291b',
 				},
 				earth: {
 					50: '#f8fafc',

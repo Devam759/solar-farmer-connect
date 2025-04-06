@@ -1,6 +1,7 @@
+
 import { useState, useEffect } from 'react';
 import NavMenu from './NavMenu';
-import logo from '../../public/media/logo.webp';
+import Image from 'next/image';
 
 const Header = () => {
   const [scrolled, setScrolled] = useState(false);
@@ -24,7 +25,7 @@ const Header = () => {
     }`}>
       <div className="container-custom flex items-center justify-between">
         <div className="flex items-center">
-          <img src={logo} alt="Logo" className="h-8 mr-2" />
+          <img src="/media/logo.webp" alt="Logo" className="h-8 mr-2" />
           <div>
             <h1 className="text-xl font-semibold tracking-tight">
               <span className="text-primary">Solar</span>Sarthi

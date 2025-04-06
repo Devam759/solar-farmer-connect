@@ -1,7 +1,7 @@
-import type { Metadata } from "next";
+
 import "./globals.css";
 
-export const metadata: Metadata = {
+export const metadata = {
   title: "SolarSarthi - Government of Rajasthan",
   description: "Official portal for solar energy schemes in Rajasthan",
 };

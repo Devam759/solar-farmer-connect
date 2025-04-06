@@ -1,8 +1,9 @@
+
 import { Mail, Phone, MapPin, FileText, Info } from 'lucide-react';
 
 const Footer = () => {
   return (
-    <footer className="bg-solar-900 text-white">
+    <footer className="bg-primary-dark text-white">
       <div className="container-custom py-12">
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8">
           {/* About Section */}
@@ -11,12 +12,12 @@ const Footer = () => {
               <img src="/media/logo.webp" alt="Logo" className="h-8 mr-2" />
               <div>
                 <h3 className="text-lg font-semibold">
-                  <span className="text-primary">Solar</span>Sarthi
+                  <span className="text-secondary-light">Solar</span>Sarthi
                 </h3>
-                <p className="text-sm text-solar-300">Government of Rajasthan</p>
+                <p className="text-sm text-green-100">Government of Rajasthan</p>
               </div>
             </div>
-            <p className="text-solar-300 text-sm">
+            <p className="text-green-100 text-sm">
               A flagship initiative of the Government of Rajasthan to promote solar energy adoption in agriculture, enhancing farmer livelihoods and sustainable development.
             </p>
           </div>
@@ -26,25 +27,25 @@ const Footer = () => {
             <h3 className="text-lg font-semibold mb-4">Important Links</h3>
             <ul className="space-y-2">
               <li>
-                <a href="#schemes" className="text-solar-300 hover:text-white text-sm transition-colors flex items-center">
+                <a href="#schemes" className="text-green-100 hover:text-white text-sm transition-colors flex items-center">
                   <FileText className="w-4 h-4 mr-2" />
                   Scheme Guidelines
                 </a>
               </li>
               <li>
-                <a href="#implementation" className="text-solar-300 hover:text-white text-sm transition-colors flex items-center">
+                <a href="#implementation" className="text-green-100 hover:text-white text-sm transition-colors flex items-center">
                   <FileText className="w-4 h-4 mr-2" />
                   Implementation Process
                 </a>
               </li>
               <li>
-                <a href="#impact" className="text-solar-300 hover:text-white text-sm transition-colors flex items-center">
+                <a href="#impact" className="text-green-100 hover:text-white text-sm transition-colors flex items-center">
                   <Info className="w-4 h-4 mr-2" />
                   Impact Assessment
                 </a>
               </li>
               <li>
-                <a href="#" className="text-solar-300 hover:text-white text-sm transition-colors flex items-center">
+                <a href="#" className="text-green-100 hover:text-white text-sm transition-colors flex items-center">
                   <FileText className="w-4 h-4 mr-2" />
                   Download Forms
                 </a>
@@ -56,15 +57,15 @@ const Footer = () => {
           <div>
             <h3 className="text-lg font-semibold mb-4">Helpline & Support</h3>
             <ul className="space-y-3">
-              <li className="flex items-center text-solar-300 text-sm">
+              <li className="flex items-center text-green-100 text-sm">
                 <MapPin className="w-4 h-4 mr-2" />
                 <span>Energy Department, Government of Rajasthan<br />Jaipur, Rajasthan - 302005</span>
               </li>
-              <li className="flex items-center text-solar-300 text-sm">
+              <li className="flex items-center text-green-100 text-sm">
                 <Phone className="w-4 h-4 mr-2" />
                 <span>Toll Free: 1800-XXX-XXXX</span>
               </li>
-              <li className="flex items-center text-solar-300 text-sm">
+              <li className="flex items-center text-green-100 text-sm">
                 <Mail className="w-4 h-4 mr-2" />
                 <span>solarsarthi@rajasthan.gov.in</span>
               </li>
@@ -76,17 +77,17 @@ const Footer = () => {
             <h3 className="text-lg font-semibold mb-4">Related Schemes</h3>
             <ul className="space-y-2">
               <li>
-                <a href="#" className="text-solar-300 hover:text-white text-sm transition-colors">
+                <a href="#" className="text-green-100 hover:text-white text-sm transition-colors">
                   PM-KUSUM Scheme
                 </a>
               </li>
               <li>
-                <a href="#" className="text-solar-300 hover:text-white text-sm transition-colors">
+                <a href="#" className="text-green-100 hover:text-white text-sm transition-colors">
                   Solar Pump Yojana
                 </a>
               </li>
               <li>
-                <a href="#" className="text-solar-300 hover:text-white text-sm transition-colors">
+                <a href="#" className="text-green-100 hover:text-white text-sm transition-colors">
                   Green Energy Mission
                 </a>
               </li>
@@ -95,19 +96,19 @@ const Footer = () => {
         </div>
 
         {/* Bottom Bar */}
-        <div className="mt-12 pt-8 border-t border-solar-800">
+        <div className="mt-12 pt-8 border-t border-green-800">
           <div className="flex flex-col md:flex-row justify-between items-center">
-            <p className="text-solar-300 text-sm">
+            <p className="text-green-100 text-sm">
               | {new Date().getFullYear()} Government of Rajasthan. All rights reserved.
             </p>
             <div className="flex space-x-6 mt-4 md:mt-0">
-              <a href="#" className="text-solar-300 hover:text-white text-sm transition-colors">
+              <a href="#" className="text-green-100 hover:text-white text-sm transition-colors">
                 RTI
               </a>
-              <a href="#" className="text-solar-300 hover:text-white text-sm transition-colors">
+              <a href="#" className="text-green-100 hover:text-white text-sm transition-colors">
                 Terms of Use
               </a>
-              <a href="#" className="text-solar-300 hover:text-white text-sm transition-colors">
+              <a href="#" className="text-green-100 hover:text-white text-sm transition-colors">
                 Accessibility
               </a>
             </div>
