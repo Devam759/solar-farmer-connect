@@ -20,16 +20,18 @@ const Header = () => {
 
   return (
     <header className={`fixed top-0 left-0 right-0 z-50 transition-all duration-300 ${
-      scrolled ? 'py-3 bg-white/90 backdrop-blur-md shadow-sm' : 'py-5 bg-transparent'
+      scrolled 
+        ? 'py-3 bg-white/95 backdrop-blur-md shadow-md' 
+        : 'py-5 bg-transparent'
     }`}>
       <div className="container-custom flex items-center justify-between">
         <div className="flex items-center">
-          <img src="/media/logo.webp" alt="Logo" className="h-10 mr-3" />
+          <img src="/media/logo.webp" alt="Logo" className="h-12 mr-3" />
           <div>
-            <h1 className="text-2xl font-bold tracking-tight">
+            <h1 className="text-2xl md:text-3xl font-bold tracking-tight leading-none">
               <span className="text-primary">Solar</span>Sarthi
             </h1>
-            <p className="text-xs font-medium text-gray-600 italic">Govt. of Rajasthan</p>
+            <p className="text-sm font-medium text-gray-600 italic">Govt. of Rajasthan</p>
           </div>
         </div>
         <NavMenu />

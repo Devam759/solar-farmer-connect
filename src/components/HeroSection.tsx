@@ -15,92 +15,92 @@ const HeroSection = () => {
         }}></div>
       </div>
 
-      <div className="container-custom pt-24">
-        <div className="flex flex-col lg:flex-row items-center gap-12">
+      <div className="container-custom pt-32">
+        <div className="flex flex-col lg:flex-row items-center gap-16">
           <div className="w-full lg:w-1/2 animate-fade-in">
           <div className="h-8"></div>
 
             {/* Government Badge */}
-            <div className="inline-flex items-center gap-2 px-4 py-2 rounded-full bg-primary/10 text-primary mb-6">
-              <Shield className="w-4 h-4" />
-              <span className="text-sm font-medium">Official Government Scheme</span>
+            <div className="inline-flex items-center gap-2 px-5 py-2.5 rounded-full bg-primary/10 text-primary mb-8">
+              <Shield className="w-5 h-5" />
+              <span className="text-base font-semibold">Official Government Scheme</span>
             </div>
             
             {/* Main Heading */}
-            <h1 className="text-5xl sm:text-6xl md:text-7xl font-bold leading-tight tracking-tight text-balance">
+            <h1 className="text-5xl sm:text-6xl lg:text-7xl font-bold leading-tighter tracking-tight text-balance mb-6">
               Solar Energy for <span className="text-gradient">Agricultural Prosperity</span>
             </h1>
             
             {/* Subheading */}
-            <p className="mt-6 text-xl leading-relaxed text-foreground/80 max-w-lg">
+            <p className="mt-6 text-xl md:text-2xl leading-relaxed text-foreground/80 max-w-xl">
               A flagship initiative by the Government of Rajasthan to transform farming through solar-powered solutions, ensuring sustainable growth and energy independence.
             </p>
 
             {/* Key Benefits */}
-            <div className="mt-8 grid grid-cols-2 gap-4">
-              <div className="flex items-center gap-2 text-base font-medium text-foreground/80">
-                <Award className="w-5 h-5 text-primary" />
+            <div className="mt-10 grid grid-cols-2 gap-6">
+              <div className="flex items-center gap-3 text-lg font-medium text-foreground/80">
+                <Award className="w-6 h-6 text-primary" />
                 <span>Up to 60% Subsidy</span>
               </div>
-              <div className="flex items-center gap-2 text-base font-medium text-foreground/80">
-                <Clock className="w-5 h-5 text-primary" />
+              <div className="flex items-center gap-3 text-lg font-medium text-foreground/80">
+                <Clock className="w-6 h-6 text-primary" />
                 <span>Quick Processing</span>
               </div>
             </div>
 
             {/* CTA Buttons */}
-            <div className="mt-8 flex flex-wrap gap-4">
+            <div className="mt-12 flex flex-wrap gap-5">
               <a 
                 href="#schemes" 
-                className="btn-primary"
+                className="btn-primary text-lg"
               >
                 Apply for Scheme
                 <ArrowDown className="w-5 h-5 ml-2" />
               </a>
               <a 
                 href="#implementation" 
-                className="btn-secondary"
+                className="btn-secondary text-lg"
               >
                 Scheme Guidelines
               </a>
             </div>
 
             {/* Key Features */}
-            <div className="mt-12 grid grid-cols-2 gap-6">
-              <div className="flex items-start gap-3 p-4 rounded-xl bg-white/50 backdrop-blur-sm border border-white/20">
-                <div className="p-2 rounded-lg bg-primary/10">
-                  <Sun className="w-5 h-5 text-primary" />
+            <div className="mt-16 grid grid-cols-1 sm:grid-cols-2 gap-6">
+              <div className="flex items-start gap-4 p-5 rounded-xl bg-white/60 backdrop-blur-sm border border-white/30 shadow-sm hover:shadow-md transition-all hover:-translate-y-1">
+                <div className="p-3 rounded-lg bg-primary/15">
+                  <Sun className="w-6 h-6 text-primary" />
                 </div>
                 <div>
-                  <h3 className="text-lg font-medium">Solar Water Pumps</h3>
-                  <p className="text-sm text-foreground/80">Subsidy on solar pumps for irrigation</p>
+                  <h3 className="text-xl font-semibold mb-1">Solar Water Pumps</h3>
+                  <p className="text-base text-foreground/80">Subsidy on solar pumps for irrigation</p>
                 </div>
               </div>
-              <div className="flex items-start gap-3 p-4 rounded-xl bg-white/50 backdrop-blur-sm border border-white/20">
-                <div className="p-2 rounded-lg bg-primary/10">
-                  <Leaf className="w-5 h-5 text-primary" />
+              <div className="flex items-start gap-4 p-5 rounded-xl bg-white/60 backdrop-blur-sm border border-white/30 shadow-sm hover:shadow-md transition-all hover:-translate-y-1">
+                <div className="p-3 rounded-lg bg-primary/15">
+                  <Leaf className="w-6 h-6 text-primary" />
                 </div>
                 <div>
-                  <h3 className="text-lg font-medium">Green Farming</h3>
-                  <p className="text-sm text-foreground/80">Sustainable agricultural practices</p>
+                  <h3 className="text-xl font-semibold mb-1">Green Farming</h3>
+                  <p className="text-base text-foreground/80">Sustainable agricultural practices</p>
                 </div>
               </div>
-              <div className="flex items-start gap-3 p-4 rounded-xl bg-white/50 backdrop-blur-sm border border-white/20">
-                <div className="p-2 rounded-lg bg-primary/10">
-                  <Zap className="w-5 h-5 text-primary" />
+              <div className="flex items-start gap-4 p-5 rounded-xl bg-white/60 backdrop-blur-sm border border-white/30 shadow-sm hover:shadow-md transition-all hover:-translate-y-1">
+                <div className="p-3 rounded-lg bg-primary/15">
+                  <Zap className="w-6 h-6 text-primary" />
                 </div>
                 <div>
-                  <h3 className="text-lg font-medium">Grid Connection</h3>
-                  <p className="text-sm text-foreground/80">Sell excess power to grid</p>
+                  <h3 className="text-xl font-semibold mb-1">Grid Connection</h3>
+                  <p className="text-base text-foreground/80">Sell excess power to grid</p>
                 </div>
               </div>
-              <div className="flex items-start gap-3 p-4 rounded-xl bg-white/50 backdrop-blur-sm border border-white/20">
-                <div className="p-2 rounded-lg bg-primary/10">
-                  <Users className="w-5 h-5 text-primary" />
+              <div className="flex items-start gap-4 p-5 rounded-xl bg-white/60 backdrop-blur-sm border border-white/30 shadow-sm hover:shadow-md transition-all hover:-translate-y-1">
+                <div className="p-3 rounded-lg bg-primary/15">
+                  <Users className="w-6 h-6 text-primary" />
                 </div>
                 <div>
-                  <h3 className="text-lg font-medium">Farmer Support</h3>
-                  <p className="text-sm text-foreground/80">Technical & financial guidance</p>
+                  <h3 className="text-xl font-semibold mb-1">Farmer Support</h3>
+                  <p className="text-base text-foreground/80">Technical & financial guidance</p>
                 </div>
               </div>
             </div>
@@ -110,36 +110,36 @@ const HeroSection = () => {
           <div className="w-full lg:w-1/2">
             <div className="relative">
               {/* Main Image */}
-              <div className="relative rounded-2xl overflow-hidden shadow-2xl">
+              <div className="relative rounded-3xl overflow-hidden shadow-2xl border border-white/30">
                 <img 
                   src="/media/solar_group.webp" 
                   alt="Farmer with solar installation" 
-                  className="w-full h-[400px] object-cover"
+                  className="w-full h-[500px] object-cover"
                 />
                 <div className="absolute inset-0 bg-gradient-to-t from-black/50 to-transparent"></div>
               </div>
 
               {/* Floating Stats Cards */}
-              <div className="absolute -bottom-6 -right-6 bg-white rounded-xl shadow-lg p-4 animate-float">
-                <div className="flex items-center gap-3">
-                  <div className="p-2 rounded-lg bg-primary/10">
-                    <Sun className="w-6 h-6 text-primary" />
+              <div className="absolute -bottom-8 -right-8 bg-white rounded-xl shadow-xl p-5 animate-float">
+                <div className="flex items-center gap-4">
+                  <div className="p-3 rounded-lg bg-primary/15">
+                    <Sun className="w-7 h-7 text-primary" />
                   </div>
                   <div>
-                    <p className="text-sm font-medium text-foreground/80">Farmers Benefitted</p>
-                    <h3 className="text-2xl font-bold text-primary">250,000+</h3>
+                    <p className="text-base font-medium text-foreground/80 mb-1">Farmers Benefitted</p>
+                    <h3 className="text-3xl font-bold text-primary">250,000+</h3>
                   </div>
                 </div>
               </div>
 
-              <div className="absolute -top-6 -left-6 bg-white rounded-xl shadow-lg p-4 animate-float-delayed">
-                <div className="flex items-center gap-3">
-                  <div className="p-2 rounded-lg bg-primary/10">
-                    <Zap className="w-6 h-6 text-primary" />
+              <div className="absolute -top-8 -left-8 bg-white rounded-xl shadow-xl p-5 animate-float-delayed">
+                <div className="flex items-center gap-4">
+                  <div className="p-3 rounded-lg bg-primary/15">
+                    <Zap className="w-7 h-7 text-primary" />
                   </div>
                   <div>
-                    <p className="text-sm font-medium text-foreground/80">Installed Capacity</p>
-                    <h3 className="text-2xl font-bold text-primary">1.5 GW</h3>
+                    <p className="text-base font-medium text-foreground/80 mb-1">Installed Capacity</p>
+                    <h3 className="text-3xl font-bold text-primary">1.5 GW</h3>
                   </div>
                 </div>
               </div>
