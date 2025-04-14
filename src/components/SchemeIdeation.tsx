@@ -62,11 +62,11 @@ const SchemeIdeation = () => {
     <section id="scheme-ideation" className="section-spacing">
       <div className="container-custom">
         <div className="text-center max-w-3xl mx-auto animate-fade-in">
-          <span className="inline-block py-1 px-3 rounded-full text-xs font-medium bg-primary/10 text-primary mb-4">
+          <span className="inline-block py-1 px-3 rounded-full text-lg font-medium bg-primary/10 text-primary mb-4">
             Program Design
           </span>
           <h2 className="section-title">How the Government Designed the Scheme</h2>
-          <p className="section-subtitle">
+          <p className="section-subtitle text-xl">
             Exploring the thoughtful process behind creating an effective, sustainable solar initiative for agriculture.
           </p>
         </div>
@@ -94,7 +94,7 @@ const SchemeIdeation = () => {
           <div className="lg:col-span-5 animate-fade-in" style={{ animationDelay: '0.3s' }}>
             <div className="glass-card p-8 h-full">
               <h3 className="text-2xl font-semibold mb-6">Guiding Principles</h3>
-              <p className="text-muted-foreground mb-8">
+              <p className="text-lg text-muted-foreground mb-8">
                 The development team adhered to these core principles throughout the design process to ensure program effectiveness.
               </p>
 
@@ -106,8 +106,8 @@ const SchemeIdeation = () => {
                         <span className="font-medium">{index + 1}</span>
                       </div>
                       <div>
-                        <h4 className="font-medium text-lg mb-1">{principle.title}</h4>
-                        <p className="text-muted-foreground">{principle.description}</p>
+                        <h4 className="font-medium text-xl mb-1">{principle.title}</h4>
+                        <p className="text-lg text-muted-foreground">{principle.description}</p>
                       </div>
                     </div>
                     {index < keyPrinciples.length - 1 && (
@@ -125,8 +125,8 @@ const SchemeIdeation = () => {
                     </svg>
                   </div>
                   <div>
-                    <h4 className="font-medium text-lg mb-1">Continuous Feedback Loop</h4>
-                    <p className="text-muted-foreground">
+                    <h4 className="font-medium text-xl mb-1">Continuous Feedback Loop</h4>
+                    <p className="text-lg text-muted-foreground">
                       The scheme incorporates ongoing assessment and adaptation mechanisms based on real-world implementation results and farmer feedback.
                     </p>
                   </div>

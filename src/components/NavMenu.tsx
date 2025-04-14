@@ -26,7 +26,7 @@ const NavMenu = () => {
           <a
             key={item.name}
             href={item.href}
-            className="text-lg font-medium tracking-wide text-foreground/80 hover:text-foreground hover:text-primary transition-colors duration-300 py-2 border-b-2 border-transparent hover:border-primary"
+            className="text-xl font-medium tracking-wide text-foreground/80 hover:text-foreground hover:text-primary transition-colors duration-300 py-2 border-b-2 border-transparent hover:border-primary"
             onClick={closeMenu}
           >
             {item.name}
@@ -41,7 +41,7 @@ const NavMenu = () => {
           aria-label="Toggle Menu"
           className="p-2 text-foreground focus:outline-none hover:text-primary transition-colors"
         >
-          {isOpen ? <X size={28} /> : <Menu size={28} />}
+          {isOpen ? <X size={30} /> : <Menu size={30} />}
         </button>
 
         {/* Mobile Menu */}
@@ -53,7 +53,7 @@ const NavMenu = () => {
                 aria-label="Close Menu"
                 className="p-2 text-foreground hover:text-primary focus:outline-none transition-colors"
               >
-                <X size={28} />
+                <X size={30} />
               </button>
             </div>
             <nav className="flex flex-col items-center mt-10 space-y-8">
@@ -61,7 +61,7 @@ const NavMenu = () => {
                 <a
                   key={item.name}
                   href={item.href}
-                  className="text-2xl font-medium tracking-wide text-foreground/90 hover:text-primary transition-colors duration-300"
+                  className="text-2xl lg:text-3xl font-medium tracking-wide text-foreground/90 hover:text-primary transition-colors duration-300"
                   onClick={closeMenu}
                 >
                   {item.name}

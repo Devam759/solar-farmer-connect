@@ -18,7 +18,7 @@ const StatCard = ({ value, label, icon, className, ...props }: StatCardProps) =>
           <p className="text-3xl sm:text-4xl font-bold text-gradient">
             {value}
           </p>
-          <p className="mt-2 text-sm font-medium text-muted-foreground">
+          <p className="mt-2 text-lg font-medium text-muted-foreground">
             {label}
           </p>
         </div>

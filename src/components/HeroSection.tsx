@@ -22,8 +22,8 @@ const HeroSection = () => {
 
             {/* Government Badge */}
             <div className="inline-flex items-center gap-2 px-5 py-2.5 rounded-full bg-primary/10 text-primary mb-8">
-              <Shield className="w-5 h-5" />
-              <span className="text-base font-semibold">Official Government Scheme</span>
+              <Shield className="w-6 h-6" />
+              <span className="text-lg font-semibold">Official Government Scheme</span>
             </div>
             
             {/* Main Heading */}
@@ -38,12 +38,12 @@ const HeroSection = () => {
 
             {/* Key Benefits */}
             <div className="mt-10 grid grid-cols-2 gap-6">
-              <div className="flex items-center gap-3 text-lg font-medium text-foreground/80">
-                <Award className="w-6 h-6 text-primary" />
+              <div className="flex items-center gap-3 text-xl font-medium text-foreground/80">
+                <Award className="w-7 h-7 text-primary" />
                 <span>Up to 60% Subsidy</span>
               </div>
-              <div className="flex items-center gap-3 text-lg font-medium text-foreground/80">
-                <Clock className="w-6 h-6 text-primary" />
+              <div className="flex items-center gap-3 text-xl font-medium text-foreground/80">
+                <Clock className="w-7 h-7 text-primary" />
                 <span>Quick Processing</span>
               </div>
             </div>
@@ -52,14 +52,14 @@ const HeroSection = () => {
             <div className="mt-12 flex flex-wrap gap-5">
               <a 
                 href="#schemes" 
-                className="btn-primary text-lg"
+                className="btn-primary text-xl"
               >
                 Apply for Scheme
-                <ArrowDown className="w-5 h-5 ml-2" />
+                <ArrowDown className="w-6 h-6 ml-2" />
               </a>
               <a 
                 href="#implementation" 
-                className="btn-secondary text-lg"
+                className="btn-secondary text-xl"
               >
                 Scheme Guidelines
               </a>
@@ -69,38 +69,38 @@ const HeroSection = () => {
             <div className="mt-16 grid grid-cols-1 sm:grid-cols-2 gap-6">
               <div className="flex items-start gap-4 p-5 rounded-xl bg-white/60 backdrop-blur-sm border border-white/30 shadow-sm hover:shadow-md transition-all hover:-translate-y-1">
                 <div className="p-3 rounded-lg bg-primary/15">
-                  <Sun className="w-6 h-6 text-primary" />
+                  <Sun className="w-7 h-7 text-primary" />
                 </div>
                 <div>
                   <h3 className="text-xl font-semibold mb-1">Solar Water Pumps</h3>
-                  <p className="text-base text-foreground/80">Subsidy on solar pumps for irrigation</p>
+                  <p className="text-lg text-foreground/80">Subsidy on solar pumps for irrigation</p>
                 </div>
               </div>
               <div className="flex items-start gap-4 p-5 rounded-xl bg-white/60 backdrop-blur-sm border border-white/30 shadow-sm hover:shadow-md transition-all hover:-translate-y-1">
                 <div className="p-3 rounded-lg bg-primary/15">
-                  <Leaf className="w-6 h-6 text-primary" />
+                  <Leaf className="w-7 h-7 text-primary" />
                 </div>
                 <div>
                   <h3 className="text-xl font-semibold mb-1">Green Farming</h3>
-                  <p className="text-base text-foreground/80">Sustainable agricultural practices</p>
+                  <p className="text-lg text-foreground/80">Sustainable agricultural practices</p>
                 </div>
               </div>
               <div className="flex items-start gap-4 p-5 rounded-xl bg-white/60 backdrop-blur-sm border border-white/30 shadow-sm hover:shadow-md transition-all hover:-translate-y-1">
                 <div className="p-3 rounded-lg bg-primary/15">
-                  <Zap className="w-6 h-6 text-primary" />
+                  <Zap className="w-7 h-7 text-primary" />
                 </div>
                 <div>
                   <h3 className="text-xl font-semibold mb-1">Grid Connection</h3>
-                  <p className="text-base text-foreground/80">Sell excess power to grid</p>
+                  <p className="text-lg text-foreground/80">Sell excess power to grid</p>
                 </div>
               </div>
               <div className="flex items-start gap-4 p-5 rounded-xl bg-white/60 backdrop-blur-sm border border-white/30 shadow-sm hover:shadow-md transition-all hover:-translate-y-1">
                 <div className="p-3 rounded-lg bg-primary/15">
-                  <Users className="w-6 h-6 text-primary" />
+                  <Users className="w-7 h-7 text-primary" />
                 </div>
                 <div>
                   <h3 className="text-xl font-semibold mb-1">Farmer Support</h3>
-                  <p className="text-base text-foreground/80">Technical & financial guidance</p>
+                  <p className="text-lg text-foreground/80">Technical & financial guidance</p>
                 </div>
               </div>
             </div>
@@ -123,10 +123,10 @@ const HeroSection = () => {
               <div className="absolute -bottom-8 -right-8 bg-white rounded-xl shadow-xl p-5 animate-float">
                 <div className="flex items-center gap-4">
                   <div className="p-3 rounded-lg bg-primary/15">
-                    <Sun className="w-7 h-7 text-primary" />
+                    <Sun className="w-8 h-8 text-primary" />
                   </div>
                   <div>
-                    <p className="text-base font-medium text-foreground/80 mb-1">Farmers Benefitted</p>
+                    <p className="text-lg font-medium text-foreground/80 mb-1">Farmers Benefitted</p>
                     <h3 className="text-3xl font-bold text-primary">250,000+</h3>
                   </div>
                 </div>
@@ -135,10 +135,10 @@ const HeroSection = () => {
               <div className="absolute -top-8 -left-8 bg-white rounded-xl shadow-xl p-5 animate-float-delayed">
                 <div className="flex items-center gap-4">
                   <div className="p-3 rounded-lg bg-primary/15">
-                    <Zap className="w-7 h-7 text-primary" />
+                    <Zap className="w-8 h-8 text-primary" />
                   </div>
                   <div>
-                    <p className="text-base font-medium text-foreground/80 mb-1">Installed Capacity</p>
+                    <p className="text-lg font-medium text-foreground/80 mb-1">Installed Capacity</p>
                     <h3 className="text-3xl font-bold text-primary">1.5 GW</h3>
                   </div>
                 </div>

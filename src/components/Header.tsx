@@ -26,12 +26,12 @@ const Header = () => {
     }`}>
       <div className="container-custom flex items-center justify-between">
         <div className="flex items-center">
-          <img src="/media/logo.webp" alt="Logo" className="h-12 mr-3" />
+          <img src="/media/logo.webp" alt="Logo" className="h-14 mr-3" />
           <div>
-            <h1 className="text-2xl md:text-3xl font-bold tracking-tight leading-none">
+            <h1 className="text-3xl md:text-4xl font-bold tracking-tight leading-none">
               <span className="text-primary">Solar</span>Sarthi
             </h1>
-            <p className="text-sm font-medium text-gray-600 italic">Govt. of Rajasthan</p>
+            <p className="text-lg font-medium text-gray-600 italic">Govt. of Rajasthan</p>
           </div>
         </div>
         <NavMenu />

@@ -28,9 +28,9 @@ const TimelineItem = ({
 
       {/* Content */}
       <div>
-        <span className="block text-sm font-medium text-primary mb-1">{date}</span>
+        <span className="block text-lg font-medium text-primary mb-1">{date}</span>
         <h3 className="text-xl font-semibold mb-2">{title}</h3>
-        <p className="text-muted-foreground">{description}</p>
+        <p className="text-lg text-muted-foreground">{description}</p>
       </div>
     </div>
   );
