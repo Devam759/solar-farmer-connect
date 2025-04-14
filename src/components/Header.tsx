@@ -24,7 +24,7 @@ const Header = () => {
         ? 'py-3 bg-white/95 backdrop-blur-md shadow-md' 
         : 'py-5 bg-transparent'
     }`}>
-      <div className="container-custom flex items-center justify-between">
+      <div className="container-custom flex items-center justify-start">
         <div className="flex items-center">
           <img src="/media/logo.webp" alt="Logo" className="h-14 mr-3" />
           <div>
@@ -34,7 +34,9 @@ const Header = () => {
             <p className="text-lg font-medium text-gray-600 italic">Govt. of Rajasthan</p>
           </div>
         </div>
-        <NavMenu />
+        <div className="ml-auto">
+          <NavMenu />
+        </div>
       </div>
     </header>
   );
