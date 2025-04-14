@@ -1,3 +1,4 @@
+
 import Header from '../components/Header';
 import HeroSection from '../components/HeroSection';
 import ProblemSolution from '../components/ProblemSolution';
@@ -6,7 +7,7 @@ import SchemeIdeation from '../components/SchemeIdeation';
 import Implementation from '../components/Implementation';
 import Impact from '../components/Impact';
 import FutureScope from '../components/FutureScope';
-import Conclusion from '../components/Conclusion';
+import Eligibility from '../components/Eligibility';
 import Footer from '../components/Footer';
 
 const Index = () => {
@@ -20,7 +21,7 @@ const Index = () => {
       <Implementation />
       <Impact />
       <FutureScope />
-      <Conclusion />
+      <Eligibility />
       <Footer />
     </div>
   );

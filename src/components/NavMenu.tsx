@@ -15,7 +15,7 @@ const NavMenu = () => {
     { name: 'Implementation', href: '#implementation' },
     { name: 'Impact', href: '#impact' },
     { name: 'Future Scope', href: '#future-scope' },
-    { name: 'Conclusion', href: '#conclusion' },
+    { name: 'Eligibility', href: '#eligibility' },
   ];
 
   return (
