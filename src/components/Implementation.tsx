@@ -17,7 +17,7 @@ const Implementation = () => {
       number: "02",
       title: "Financial Arrangement",
       description: "Farmers choose between upfront subsidy models or financing options with partner banks. Documentation for subsidies and loans is processed through a single-window system.",
-      image: "https://images.unsplash.com/photo-1554224155-6726b3ff858f?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1011&q=80"
+      image: "public/media/money.webp"
     },
     {
       number: "03",

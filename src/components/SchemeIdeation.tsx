@@ -4,37 +4,38 @@ import TimelineItem from './TimelineItem';
 const SchemeIdeation = () => {
   const timelineItems = [
     {
-      date: "2014",
-      title: "Initial Research Phase",
-      description: "Government initiated research on integrating solar technology with agricultural practices, studying global best practices and local feasibility."
-    },
-    {
-      date: "2015",
-      title: "Stakeholder Consultations",
-      description: "Extensive discussions with farmer groups, energy experts, and financial institutions to understand needs and implementation challenges."
-    },
-    {
-      date: "2016",
-      title: "Pilot Programs Launched",
-      description: "Small-scale implementations in select regions to test technical viability, farmer adoption, and economic returns."
-    },
-    {
-      date: "2018",
-      title: "Policy Framework Development",
-      description: "Creation of comprehensive guidelines covering subsidies, technical standards, and implementation protocols."
-    },
-    {
       date: "2019",
-      title: "Financial Model Finalization",
-      description: "Establishment of subsidy structures, loan programs, and repayment mechanisms to ensure financial sustainability."
+      title: "Rajasthan Solar Energy Policy 2019",
+      description: "The state launched a policy aiming to install 30,000 MW of solar power projects by 2024-25, promoting both grid-connected and off-grid applications."
     },
     {
       date: "2020",
-      title: "National Rollout",
-      description: "Nationwide launch with regional adaptations, partner onboarding, and awareness campaigns targeting farming communities."
+      title: "Commissioning of Bhadla Solar Park",
+      description: "Bhadla Solar Park, the world's largest with a capacity of 2,245 MW, was fully commissioned, significantly boosting Rajasthan's solar capacity."
+    },
+    {
+      date: "2021",
+      title: "Expansion of Rooftop Solar Initiatives",
+      description: "The government promoted rooftop solar systems under net metering schemes, encouraging residential and commercial installations."
+    },
+    {
+      date: "2023",
+      title: "Integrated Clean Energy Policy 2024 Drafted",
+      description: "A new policy was drafted targeting 125 GW of renewable energy by 2030, including 90 GW from solar power, emphasizing decentralized generation."
+    },
+    {
+      date: "2024",
+      title: "Promotion of Virtual and Group Net Metering",
+      description: "The state introduced virtual and group net metering schemes to allow consumers without suitable rooftops to benefit from solar energy."
+    },
+    {
+      date: "2025",
+      title: "Invitation to Farmers under PM-KUSUM Scheme",
+      description: "Rajasthan invited farmers to set up solar power plants on their land under the PM-KUSUM scheme, aiming to enhance farmer income and clean energy production."
     }
   ];
-
+  
+    
   const keyPrinciples = [
     {
       title: "Farmer-Centric Design",

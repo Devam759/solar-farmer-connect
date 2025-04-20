@@ -17,9 +17,10 @@ const AnimatedCounter = ({ value, label, className = '', style, icon }: Animated
   const isPercentage = value.includes('%');
   const unit = value.includes('MW') ? ' MW' : 
                 value.includes('Cr') ? ' Cr' : 
-                value.includes('Tons') ? ' Tons' : 
+                value.includes('Tons') ? ' M.Tons' : 
                 value.includes('+') ? '+' : 
                 isPercentage ? '%' : '';
+  const prefix = value.includes('Million') ? 'Million ' : '';
 
   useEffect(() => {
     const observer = new IntersectionObserver(

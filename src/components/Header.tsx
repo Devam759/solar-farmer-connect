@@ -1,4 +1,3 @@
-
 import { useState, useEffect } from 'react';
 import NavMenu from './NavMenu';
 
@@ -24,17 +23,17 @@ const Header = () => {
         ? 'py-3 bg-white/95 backdrop-blur-md shadow-md' 
         : 'py-5 bg-transparent'
     }`}>
-      <div className="container-custom flex items-center justify-start">
+      <div className="container-custom flex items-center justify-between px-6">
         <div className="flex items-center">
           <img src="/media/logo.webp" alt="Logo" className="h-14 mr-3" />
           <div>
-            <h1 className="text-3xl md:text-4xl font-bold tracking-tight leading-none">
+            <h1 className="text-3xl md:text-4xl font-bold tracking-tight leading-none mb-1">
               <span className="text-primary">Solar</span>Sarthi
             </h1>
-            <p className="text-lg font-medium text-gray-600 italic">Govt. of Rajasthan</p>
+            <p className="text-lg font-medium text-gray-600 italic mt-0.5">Govt. of Rajasthan</p>
           </div>
         </div>
-        <div className="ml-auto">
+        <div className="ml-12">
           <NavMenu />
         </div>
       </div>

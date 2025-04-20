@@ -1,4 +1,3 @@
-
 import { useState } from 'react';
 import { Menu, X } from 'lucide-react';
 
@@ -21,12 +20,12 @@ const NavMenu = () => {
   return (
     <>
       {/* Desktop Navigation */}
-      <nav className="hidden md:flex space-x-8">
+      <nav className="hidden md:flex space-x-6">
         {menuItems.map((item) => (
           <a
             key={item.name}
             href={item.href}
-            className="text-xl font-medium tracking-wide text-foreground/80 hover:text-foreground hover:text-primary transition-colors duration-300 py-2 border-b-2 border-transparent hover:border-primary"
+            className="text-xl font-medium tracking-wide text-foreground/80 hover:text-foreground hover:text-primary transition-colors duration-300 py-2 border-b-2 border-transparent hover:border-primary flex items-center justify-center min-w-[110px]"
             onClick={closeMenu}
           >
             {item.name}

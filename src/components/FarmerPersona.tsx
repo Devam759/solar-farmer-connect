@@ -84,7 +84,7 @@ const FarmerPersona = () => {
           ))}
         </div>
 
-        <div className="mt-16 glass-card p-8 animate-fade-in">
+        {/* <div className="mt-16 glass-card p-8 animate-fade-in">
           <div className="flex flex-col md:flex-row items-start md:items-center gap-6">
             <div className="w-16 h-16 rounded-full bg-primary/10 text-primary flex items-center justify-center flex-shrink-0">
               <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" strokeWidth={1.5} stroke="currentColor" className="w-8 h-8">
@@ -136,7 +136,7 @@ const FarmerPersona = () => {
               </ul>
             </div>
           </div>
-        </div>
+        </div> */}
       </div>
     </section>
   );

@@ -16,7 +16,7 @@ const Impact = () => {
 
         <div className="mt-16 grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6">
           <AnimatedCounter 
-            value="250,000+" 
+            value="130,000+" 
             label="Farmers Benefitted" 
             className="animate-fade-in"
             icon={
@@ -27,7 +27,7 @@ const Impact = () => {
           />
           
           <AnimatedCounter 
-            value="1,500 MW" 
+            value="23,000 MW" 
             label="Installed Capacity" 
             className="animate-fade-in"
             style={{ animationDelay: '0.1s' }}
@@ -39,7 +39,7 @@ const Impact = () => {
           />
           
           <AnimatedCounter 
-            value="4,200 Cr" 
+            value="Crores" 
             label="Annual Savings" 
             className="animate-fade-in"
             style={{ animationDelay: '0.2s' }}
@@ -51,7 +51,7 @@ const Impact = () => {
           />
           
           <AnimatedCounter 
-            value="1.8M Tons" 
+            value="27.6 Million Tons" 
             label="CO₂ Reduction/Year" 
             className="animate-fade-in"
             style={{ animationDelay: '0.3s' }}

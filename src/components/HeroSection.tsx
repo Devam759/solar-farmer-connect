@@ -1,4 +1,3 @@
-
 import { ArrowDown, Sun, Leaf, Zap, Users, Award, Shield, Clock } from 'lucide-react';
 
 const HeroSection = () => {
@@ -15,10 +14,10 @@ const HeroSection = () => {
         }}></div>
       </div>
 
-      <div className="container-custom pt-32">
-        <div className="flex flex-col lg:flex-row items-center gap-16">
+      <div className="container-custom pt-36">
+        <div className="flex flex-col lg:flex-row items-start gap-16">
           <div className="w-full lg:w-1/2 animate-fade-in">
-          <div className="h-8"></div>
+            <div className="h-2"></div>
 
             {/* Government Badge */}
             <div className="inline-flex items-center gap-2 px-5 py-2.5 rounded-full bg-primary/10 text-primary mb-8">
