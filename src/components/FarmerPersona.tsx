@@ -1,30 +1,29 @@
-
 const FarmerPersona = () => {
   const personas = [
     {
-      name: "Rajesh Patel",
-      age: "45",
-      location: "Gujarat",
-      challenge: "High diesel costs for irrigation",
-      goal: "Reduce operational expenses while maintaining crop yield",
-      image: "https://images.unsplash.com/photo-1591373032196-2a99324e3da5?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1287&q=80"
+      name: "Kishanchand Jat",
+      age: "Not specified",
+      location: "Barmer district, Rajasthan",
+      challenge: "Dependence on electricity and high irrigation costs",
+      goal: "To reduce farming costs and improve productivity by using a solar-powered pump",
+      image: "public/media/kishanchan_ jat.webp"
     },
     {
-      name: "Lakshmi Devi",
-      age: "38",
-      location: "Tamil Nadu",
-      challenge: "Unreliable grid power for processing equipment",
-      goal: "Stabilize power supply for consistent agricultural operations",
-      image: "https://images.unsplash.com/photo-1646153504753-13ef2bfcc77c?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1287&q=80"
+      name: "Dr. Amit Yadav",
+      age: "35",
+      location: "Bhaloji village near Kotputli town, Jaipur",
+      challenge: "The farmland was barren and it had lots of ground water.",
+      goal: "To turn barren farmland into a profitable solar power source",
+      image: "public/media/dr_amit.webp"
     },
-    {
-      name: "Sukhwinder Singh",
-      age: "52",
-      location: "Punjab",
-      challenge: "Rising electricity costs affecting profitability",
-      goal: "Adopt sustainable practices while improving farm income",
-      image: "https://images.unsplash.com/photo-1588935365857-311043871f0d?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1287&q=80"
-    }
+    // {
+    //   name: "Sukhwinder Singh",
+    //   age: "52",
+    //   location: "Punjab",
+    //   challenge: "Rising electricity costs affecting profitability",
+    //   goal: "Adopt sustainable practices while improving farm income",
+    //   image: "https://images.unsplash.com/photo-1588935365857-311043871f0d?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1287&q=80"
+    // }
   ];
 
   return (
@@ -40,14 +39,14 @@ const FarmerPersona = () => {
           </p>
         </div>
 
-        <div className="mt-16 grid grid-cols-1 md:grid-cols-3 gap-8">
+        <div className="mt-14 grid grid-cols-1 md:grid-cols-2 gap-6 max-w-5xl mx-auto">
           {personas.map((persona, index) => (
             <div 
               key={index}
-              className="glass-card overflow-hidden animate-fade-in hover-scale"
+              className="glass-card overflow-hidden animate-fade-in hover-scale max-w-md mx-auto"
               style={{ animationDelay: `${0.1 * (index + 1)}s` }}
             >
-              <div className="h-60 overflow-hidden">
+              <div className="h-85 overflow-hidden">
                 <img 
                   src={persona.image} 
                   alt={persona.name} 
@@ -77,7 +76,7 @@ const FarmerPersona = () => {
                   <div className="flex items-center space-x-2">
                     <div className="w-3 h-3 rounded-full bg-primary"></div>
                     <span className="text-sm font-medium">Solar Scheme Beneficiary</span>
-                  </div>
+                  </div>  
                 </div>
               </div>
             </div>
