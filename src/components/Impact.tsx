@@ -39,7 +39,7 @@ const Impact = () => {
           />
           
           <AnimatedCounter 
-            value="Crores" 
+            value="2400 Crores" 
             label="Annual Savings" 
             className="animate-fade-in"
             style={{ animationDelay: '0.2s' }}
@@ -136,8 +136,8 @@ const Impact = () => {
                     "सौर पैनल लगाने से मेरे कृषि कार्यों में बदलाव आया है। मैं सालाना करीब ₹60,000 बिजली लागत बचा रहा हूं।"
                   </p>
                   <div>
-                    <p className="font-medium">Harpreet Singh</p>
-                    <p className="text-sm text-muted-foreground">Wheat farmer, Punjab</p>
+                    <p className="font-medium">Kishanchand Jat</p>
+                    <p className="text-sm text-muted-foreground">Wheat farmer, Rajasthan</p>
                   </div>
                 </div>
                 
@@ -149,8 +149,8 @@ const Impact = () => {
                     "सरकारी सब्सिडी से सौर स्थापना किफायती हो गई। अब मेरे प्रसंस्करण इकाई के लिए भरोसेमंद बिजली मिल रही है, और अतिरिक्त बिजली ग्रिड को बेचकर अतिरिक्त आय हो रही है।"
                   </p>
                   <div>
-                    <p className="font-medium">Lakshmi Devi</p>
-                    <p className="text-sm text-muted-foreground">Rice mill owner, Tamil Nadu</p>
+                    <p className="font-medium">Dr. Amit Yadav</p>
+                    <p className="text-sm text-muted-foreground">Farmerland owner, Rajasthan</p>
                   </div>
                 </div>
               </div>

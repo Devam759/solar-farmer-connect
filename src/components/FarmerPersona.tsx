@@ -6,7 +6,8 @@ const FarmerPersona = () => {
       location: "Barmer district, Rajasthan",
       challenge: "Dependence on electricity and high irrigation costs",
       goal: "To reduce farming costs and improve productivity by using a solar-powered pump",
-      image: "public/media/kishanchan_ jat.webp"
+      image: "public/media/kishanchan_ jat.webp",
+      referenceLink: "https://www.business-standard.com/india-news/solar-pump-scheme-helps-29-000-rajasthan-farmers-in-a-year-125010200402_1.html"
     },
     {
       name: "Dr. Amit Yadav",
@@ -14,7 +15,8 @@ const FarmerPersona = () => {
       location: "Bhaloji village near Kotputli town, Jaipur",
       challenge: "The farmland was barren and it had lots of ground water.",
       goal: "To turn barren farmland into a profitable solar power source",
-      image: "public/media/dr_amit.webp"
+      image: "public/media/dr_amit.webp",
+      referenceLink: "https://www.newindianexpress.com/thesundaystandard/2021/Sep/12/farmer-family-sets-up-first-farm-based-solar-plant-in-rajasthans-bhaloji-village-2357441.html"
     },
     // {
     //   name: "Sukhwinder Singh",
@@ -73,9 +75,20 @@ const FarmerPersona = () => {
                 </div>
                 
                 <div className="mt-6 pt-4 border-t border-border">
-                  <div className="flex items-center space-x-2">
-                    <div className="w-3 h-3 rounded-full bg-primary"></div>
-                    <span className="text-sm font-medium">Solar Scheme Beneficiary</span>
+                  <div className="flex items-center justify-between">
+                    <div className="flex items-center space-x-2">
+                      <div className="w-3 h-3 rounded-full bg-primary"></div>
+                      <span className="text-sm font-medium">Solar Scheme Beneficiary</span>
+                    </div>
+                    <a 
+                      href={persona.referenceLink} 
+                      className="text-sm text-primary hover:text-primary/80 transition-colors flex items-center gap-1"
+                    >
+                      Read More
+                      <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" strokeWidth={1.5} stroke="currentColor" className="w-4 h-4">
+                        <path strokeLinecap="round" strokeLinejoin="round" d="M13.5 4.5L21 12m0 0l-7.5 7.5M21 12H3" />
+                      </svg>
+                    </a>
                   </div>  
                 </div>
               </div>
