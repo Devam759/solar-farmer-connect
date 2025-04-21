@@ -32,10 +32,10 @@ const FarmerPersona = () => {
     <section id="farmer-persona" className="section-spacing bg-solar-50 relative">
       <div className="container-custom">
         <div className="text-center max-w-3xl mx-auto animate-fade-in">
-          <span className="inline-block py-1 px-3 rounded-full text-xs font-medium bg-primary/10 text-primary mb-4">
+          {/* <span className="inline-block py-1 px-3 rounded-full text-xs font-medium bg-primary/10 text-primary mb-4">
             User Persona
-          </span>
-          <h2 className="section-title">Farmers</h2>
+          </span> */}
+          <h2 className="section-title">Farmers benifitted by the scheme</h2>
           <p className="section-subtitle">
             Understanding the real people who benefit from solar agriculture programs and their unique challenges.
           </p>

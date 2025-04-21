@@ -9,8 +9,8 @@ const NavMenu = () => {
 
   const menuItems = [
     { name: 'Problem & Solution', href: '#problem-solution' },
-    { name: 'User Persona', href: '#farmer-persona' },
-    { name: 'Government Scheme', href: '#scheme-ideation' },
+    // { name: 'User Persona', href: '#farmer-persona' },
+    { name: 'Scheme Design', href: '#scheme-ideation' },
     { name: 'Implementation', href: '#implementation' },
     { name: 'Impact', href: '#impact' },
     { name: 'Future Scope', href: '#future-scope' },

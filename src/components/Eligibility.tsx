@@ -10,12 +10,12 @@ const Eligibility = () => {
     
       <div className="container-custom">
         <div className="text-center max-w-3xl mx-auto animate-fade-in">
-          <span className="inline-block py-1 px-3 rounded-full text-xs font-medium bg-primary/10 text-primary mb-4">
+          {/* <span className="inline-block py-1 px-3 rounded-full text-xs font-medium bg-primary/10 text-primary mb-4">
             Who Qualifies
-          </span>
+          </span> */}
           <h2 className="section-title">Farmer Eligibility</h2>
           <p className="section-subtitle">
-            Understanding the requirements to participate in the solar agricultural program and access available benefits.
+          how to join the solar agriculture program and get benefits from it.
           </p>
         </div>
 
@@ -90,7 +90,7 @@ const Eligibility = () => {
                     <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" strokeWidth={1.5} stroke="currentColor" className="w-5 h-5 text-primary mr-2 mt-1">
                       <path strokeLinecap="round" strokeLinejoin="round" d="m8.25 4.5 7.5 7.5-7.5 7.5" />
                     </svg>
-                    <span>Proof of residence (utility bills)</span>
+                    <span>Proof of residence</span>
                   </li>
                   <li className="flex items-start">
                     <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" strokeWidth={1.5} stroke="currentColor" className="w-5 h-5 text-primary mr-2 mt-1">
@@ -102,7 +102,7 @@ const Eligibility = () => {
                     <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" strokeWidth={1.5} stroke="currentColor" className="w-5 h-5 text-primary mr-2 mt-1">
                       <path strokeLinecap="round" strokeLinejoin="round" d="m8.25 4.5 7.5 7.5-7.5 7.5" />
                     </svg>
-                    <span>Recent passport-sized photographs</span>
+                    <span>Recent passport-size photographs</span>
                   </li>
                 </ul>
               </div>
@@ -131,14 +131,14 @@ const Eligibility = () => {
                     <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" strokeWidth={1.5} stroke="currentColor" className="w-5 h-5 text-primary mr-2 mt-1">
                       <path strokeLinecap="round" strokeLinejoin="round" d="m8.25 4.5 7.5 7.5-7.5 7.5" />
                     </svg>
-                    <span>Soil health card</span>
+                    <span>Existing water & electricity bills</span>
                   </li>
-                  <li className="flex items-start">
+                  {/* <li className="flex items-start">
                     <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" strokeWidth={1.5} stroke="currentColor" className="w-5 h-5 text-primary mr-2 mt-1">
                       <path strokeLinecap="round" strokeLinejoin="round" d="m8.25 4.5 7.5 7.5-7.5 7.5" />
                     </svg>
-                    <span>Existing water & electricity bills</span>
-                  </li>
+                    <span></span>
+                  </li> */}
                 </ul>
               </div>
             </div>

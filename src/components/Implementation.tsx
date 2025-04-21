@@ -43,12 +43,12 @@ const Implementation = () => {
     <section id="implementation" className="section-spacing bg-solar-50 relative">
       <div className="container-custom">
         <div className="text-center max-w-3xl mx-auto animate-fade-in">
-          <span className="inline-block py-1 px-3 rounded-full text-xs font-medium bg-primary/10 text-primary mb-4">
+          {/* <span className="inline-block py-1 px-3 rounded-full text-xs font-medium bg-primary/10 text-primary mb-4">
             Implementation Process
-          </span>
-          <h2 className="section-title">Prototyping & Implementation</h2>
+          </span> */}
+          <h2 className="section-title">Implementation</h2>
           <p className="section-subtitle">
-            From concept to reality: How the solar scheme is implemented on farms across the country.
+            From concept to reality: How the solar scheme is implemented across the country.
           </p>
         </div>
 

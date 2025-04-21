@@ -5,12 +5,12 @@ const Impact = () => {
     <section id="impact" className="section-spacing">
       <div className="container-custom">
         <div className="text-center max-w-3xl mx-auto animate-fade-in">
-          <span className="inline-block py-1 px-3 rounded-full text-xs font-medium bg-primary/10 text-primary mb-4">
+          {/* <span className="inline-block py-1 px-3 rounded-full text-xs font-medium bg-primary/10 text-primary mb-4">
             Results & Benefits
-          </span>
+          </span> */}
           <h2 className="section-title">Impact & People Benefitted</h2>
           <p className="section-subtitle">
-            Measuring the real-world outcomes of solar initiatives in agricultural communities.
+            
           </p>
         </div>
 
@@ -150,7 +150,7 @@ const Impact = () => {
                   </p>
                   <div>
                     <p className="font-medium">Dr. Amit Yadav</p>
-                    <p className="text-sm text-muted-foreground">Farmerland owner, Rajasthan</p>
+                    <p className="text-sm text-muted-foreground">Farmland owner, Rajasthan</p>
                   </div>
                 </div>
               </div>

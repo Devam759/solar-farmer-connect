@@ -70,9 +70,9 @@ const FutureScope = () => {
     <section id="future-scope" className="section-spacing bg-solar-50">
       <div className="container-custom">
         <div className="text-center max-w-3xl mx-auto animate-fade-in">
-          <span className="inline-block py-1 px-3 rounded-full text-sm font-medium bg-primary/10 text-primary mb-4">
+          {/* <span className="inline-block py-1 px-3 rounded-full text-sm font-medium bg-primary/10 text-primary mb-4">
             Looking Ahead
-          </span>
+          </span> */}
           <h2 className="text-4xl font-bold mb-4">Future Scope & Innovations</h2>
           <p className="text-lg text-muted-foreground">
             Exploring upcoming advancements and expansions in agricultural solar energy programs.

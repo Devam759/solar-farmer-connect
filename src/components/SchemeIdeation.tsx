@@ -63,10 +63,10 @@ const SchemeIdeation = () => {
     <section id="scheme-ideation" className="section-spacing">
       <div className="container-custom">
         <div className="text-center max-w-3xl mx-auto animate-fade-in">
-          <span className="inline-block py-1 px-3 rounded-full text-lg font-medium bg-primary/10 text-primary mb-4">
+          {/* <span className="inline-block py-1 px-3 rounded-full text-lg font-medium bg-primary/10 text-primary mb-4">
             Program Design
-          </span>
-          <h2 className="section-title">How the Government Designed the Scheme</h2>
+          </span> */}
+          <h2 className="section-title">How the Scheme was designed?</h2>
           <p className="section-subtitle text-xl">
             Exploring the thoughtful process behind creating an effective, sustainable solar initiative for agriculture.
           </p>

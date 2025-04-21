@@ -128,13 +128,13 @@ const ProblemSolution = () => {
     <section id="problem-solution" className="section-spacing py-20 relative overflow-hidden">
       <div className="container-custom">
         <div className="text-center max-w-3xl mx-auto animate-fade-in">
-          <span className="inline-block py-1 px-3 rounded-full text-xs font-medium bg-primary/10 text-primary mb-4">
+          {/* <span className="inline-block py-1 px-3 rounded-full text-xs font-medium bg-primary/10 text-primary mb-4">
             Challenges & Solutions
-          </span>
-          <h2 className="section-title">Addressing Energy Challenges for Rural Farmers</h2>
-          <p className="section-subtitle">
+          </span> */}
+          <h2 className="section-title">Challenges Faced by Farmers</h2>
+          {/* <p className="section-subtitle">
             Exploring the core problems faced by agricultural communities and how solar initiatives provide sustainable solutions.
-          </p>
+          </p> */}
         </div>
 
         <div className="mt-16 grid grid-cols-1 md:grid-cols-2 gap-10 lg:gap-20">
