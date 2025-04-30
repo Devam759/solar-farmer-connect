@@ -105,7 +105,7 @@ const ProblemSolution = () => {
     },
     {
       title: "E-Mitra Integration",
-      description: "Direct integration with E-Mitra centers for easy access to services and information.Contact:9662671152, 9610450551",
+      description: "Direct integration with E-Mitra centers for easy access to services and information.Contact: 9610450551",
       icon: (
         <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" strokeWidth={1.5} stroke="currentColor" className="w-6 h-6">
           <path strokeLinecap="round" strokeLinejoin="round" d="M15 10.5a3 3 0 1 1-6 0 3 3 0 0 1 6 0Z" />

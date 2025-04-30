@@ -27,27 +27,27 @@ const Footer = () => {
             <h3 className="text-2xl font-semibold mb-6">Important Links</h3>
             <ul className="space-y-4">
               <li>
-                <a href="#schemes" className="text-xl text-green-100 hover:text-white transition-colors flex items-center group">
+                <a href="https://rising.rajasthan.gov.in/renewable-energy" className="text-xl text-green-100 hover:text-white transition-colors flex items-center group">
                   <FileText className="w-6 h-6 mr-3 group-hover:text-secondary-light transition-colors" />
-                  <span className="border-b border-transparent group-hover:border-secondary-light transition-all">Scheme Guidelines</span>
+                  <span className="border-b border-transparent group-hover:border-secondary-light transition-all">Rising Rajasthan</span>
                 </a>
               </li>
               <li>
-                <a href="#implementation" className="text-xl text-green-100 hover:text-white transition-colors flex items-center group">
+                <a href="https://sso.rajasthan.gov.in/signin" className="text-xl text-green-100 hover:text-white transition-colors flex items-center group">
                   <FileText className="w-6 h-6 mr-3 group-hover:text-secondary-light transition-colors" />
-                  <span className="border-b border-transparent group-hover:border-secondary-light transition-all">Implementation Process</span>
+                  <span className="border-b border-transparent group-hover:border-secondary-light transition-all">Local Self Government </span>
                 </a>
               </li>
               <li>
-                <a href="#impact" className="text-xl text-green-100 hover:text-white transition-colors flex items-center group">
+                <a href="https://rajasthansolarassociation.com/" className="text-xl text-green-100 hover:text-white transition-colors flex items-center group">
                   <Info className="w-6 h-6 mr-3 group-hover:text-secondary-light transition-colors" />
-                  <span className="border-b border-transparent group-hover:border-secondary-light transition-all">Impact Assessment</span>
+                  <span className="border-b border-transparent group-hover:border-secondary-light transition-all">Rajashtan Solar Association</span>
                 </a>
               </li>
               <li>
-                <a href="#" className="text-xl text-green-100 hover:text-white transition-colors flex items-center group">
+                <a href="https://rreclmis.energy.rajasthan.gov.in/glmw.aspx?id=1" className="text-xl text-green-100 hover:text-white transition-colors flex items-center group">
                   <FileText className="w-6 h-6 mr-3 group-hover:text-secondary-light transition-colors" />
-                  <span className="border-b border-transparent group-hover:border-secondary-light transition-all">Download Forms</span>
+                  <span className="border-b border-transparent group-hover:border-secondary-light transition-all">Guidelines</span>
                 </a>
               </li>
             </ul>

@@ -6,7 +6,7 @@ const FarmerPersona = () => {
       location: "Barmer district, Rajasthan",
       challenge: "Dependence on electricity and high irrigation costs",
       goal: "To reduce farming costs and improve productivity by using a solar-powered pump",
-      image: "public/media/ChatGPT Image Apr 16, 2025, 07_27_22 PM.png",
+      image: "public/media/kishanchan_ jat.webp",
       referenceLink: "https://www.business-standard.com/india-news/solar-pump-scheme-helps-29-000-rajasthan-farmers-in-a-year-125010200402_1.html"
     },
     {
