@@ -9,13 +9,13 @@ const FutureScope = () => {
     {
       title: "Integrated Storage Solutions",
       description: "Affordable battery technologies to store excess energy for use during nighttime operations.",
-      image: "public/media/integrated solar battery.webp",
+      image: "/media/integrated solar battery.webp",
       color: "bg-sunlight-200/20 text-sunlight-800"
     },
     {
       title: "Solar-Powered Agricultural Processing",
       description: "Expansion of solar applications to post-harvest processing and value addition activities.",
-      image: "public/media/Slide8.webp",
+      image: "/media/Slide8.webp",
       color: "bg-solar-200/40 text-solar-700"
     },
     {

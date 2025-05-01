@@ -17,25 +17,25 @@ const Implementation = () => {
       number: "02",
       title: "Financial Arrangement",
       description: "Farmers choose between upfront subsidy models or financing options with partner banks. Documentation for subsidies and loans is processed through a single-window system.",
-      image: "public/media/money.webp"
+      image: "/media/money.webp"
     },
     {
       number: "03",
       title: "Installation & Commissioning",
       description: "Approved vendors install systems according to standardized quality guidelines. Officials conduct inspections to ensure compliance before commissioning.",
-      image: "public/media/installation_commissioning.webp"
+      image: "/media/installation_commissioning.webp"
     },
     {
       number: "04",
       title: "Training & Handover",
       description: "Farmers receive comprehensive training on system operation, basic maintenance, and troubleshooting. Documentation and warranty information is provided.",
-      image: "public/media/Solar_Practical.webp"
+      image: "/media/Solar_Practical.webp"
     },
     {
       number: "05",
       title: "Monitoring & Support",
       description: "Ongoing performance monitoring through smart meters and periodic maintenance visits ensure optimal system operation and longevity.",
-      image: "public/media/Smart_Solar_Monitoring_System.webp"
+      image: "/media/Smart_Solar_Monitoring_System.webp"
     },
   ];
 
